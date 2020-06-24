@@ -1,0 +1,25 @@
+{
+  "name": "InstAPI",
+  "version": "1.0.0",
+  "description": "back end for instagram clone",
+  "main": "src/server.ts",
+  "repository": "git@github.com:InstaDrone/InstAPI.git",
+  "author": "JimmyMcBride <mcbride967@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.14",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
